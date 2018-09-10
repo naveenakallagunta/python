@@ -1,6 +1,6 @@
 def main():
     count = 0
-    number = int(input(""))
+    number = int(raw_input())
     while (number > 0):
       number = number//10
       count = count + 1
