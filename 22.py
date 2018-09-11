@@ -1,2 +1,2 @@
-n=10
+m=10
 print max(map(int,raw_input().split()))
