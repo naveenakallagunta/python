@@ -1,4 +1,4 @@
-n,m=map(int,raw_input().split())
-for i in range(n+1,m):
- if i%2==0:
-  print i,
+l,m=map(int,raw_input().split())
+for c in range(l+1,m):
+ if c%2==0:
+  print c,
