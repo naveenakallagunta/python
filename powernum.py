@@ -1,3 +1,3 @@
-e,f=map(int,raw_input().split())
-c=e**f
-print c
+l,m=map(int,raw_input().split())
+f=l**m
+print f
