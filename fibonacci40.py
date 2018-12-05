@@ -1,10 +1,10 @@
-def fibonacci(n):
-	if(n<=1):
-		return n
+def fibonacci(z):
+	if(z<=1):
+		return z
 	else:
-		return(fibonacci(n-1)+fibonacci(n-2))
-n=int(raw_input())
+		return(fibonacci(z-1)+fibonacci(z-2))
+z=int(raw_input())
 print (' ')
-for i in range(1,n+1):
+for i in range(1,z+1):
 	print fibonacci(i),
 		
